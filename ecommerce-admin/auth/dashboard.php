@@ -7,7 +7,7 @@
 
 
 <h1>
-welcome to dashboard
+welcome to dashboard, <?php echo $_SESSION['username']; ?>
 
 </h1>
 <?php include_once BASE_DIR . '/partials/footer.php'; ?>
